@@ -16,47 +16,10 @@ body,
   overflow: hidden;
 }
 
-body{
-  background: radial-gradient(at 2% 96%, hsla(228,76%,51%,1) 0, transparent 57%), 
-  radial-gradient(at 94% 90%, hsla(179,100%,46%,1) 0, transparent 58%), 
-  radial-gradient(at 100% 58%, hsla(141,68%,66%,1) 0, transparent 40%), 
-  radial-gradient(at 99% 21%, hsla(40,99%,69%,1) 0, transparent 52%), 
-  radial-gradient(at 75% 9%, hsla(33,100%,69%,1) 0, transparent 52%), 
-  radial-gradient(at 61% 3%, hsla(359,100%,70%,1) 0, transparent 16%), 
-  radial-gradient(at 14% 14%, hsla(331,96%,54%,1) 0, transparent 95%);
+body {
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.MuiPaper-root.ohm-card {
-  background-color: #282727;
-}
-
-.MuiButton-containedPrimary {
-  background: linear-gradient(77.58deg, #FF666B 0%, #E04FB6 130.36%);
-  box-shadow: none;
-}
-
-
-.jss11 .MuiPaper-root {
-  background-color: #ff666b;
-  background-image: linear-gradient(333deg, rgb(225 90 25 / 36%) 0%, rgba(0,0,0,0) 50%, rgb(229 32 132 / 71%) 100%);
-}
-
-.MuiDrawer-paperAnchorDockedLeft {
-  box-shadow: 9px 0px 0px hsl(358deg 100% 70% / 45%);
-}
-
-.bond-discounts>p {
-  color: #282727;
-}
-
-.MuiLink-root:hover {
-  color: #f1e3a7;
-}
-
-path.recharts-curve.recharts-line-curve {
-  stroke: hsl(157deg 100% 50%);
-  color: hsl(157deg 100% 50%);
- }
 
 .app {
   height: 100vh;
